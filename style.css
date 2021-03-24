@@ -1067,7 +1067,7 @@ textarea {
 	}
 }
 
-@media only screen and (max-width: 60em) {
+@media only screen and (max-width: 50rem) {
   .nav {
     margin: 0 -.5rem;
   }
