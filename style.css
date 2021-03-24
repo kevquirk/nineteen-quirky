@@ -56,6 +56,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Global colour variables */
  :root {
+    --sans-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     --accent: #014b85;
     --main: #212121;
     --light: #444;
@@ -187,7 +189,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-family: var(--mono-font);
 	font-size: 1em;
   background: var(--code) !important;
 	color: var(--code-text) !important;
@@ -244,7 +246,7 @@ kbd,
 samp,
 tt,
 var {
-	font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+	font-family: var(--mono-font);
 	font-size: 1em;
 }
 
@@ -529,7 +531,7 @@ select,
 optgroup,
 textarea {
 	color: var(--main);
-	font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,"Nimbus Sans L",roboto,noto,segoe ui,arial,helvetica,helvetica neue,sans-serif;
+	font-family: var(--sans-font);
 	font-size: 1.2rem;
 	line-height: 1.5;
 }
