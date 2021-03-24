@@ -191,7 +191,7 @@ pre {
 	font-size: 1em;
   background: var(--code) !important;
 	color: var(--code-text) !important;
-	border-radius: 4px;
+	: 4px;
 	margin-bottom: 1.6em;
 	max-width: 100%;
 	overflow: auto;
@@ -287,7 +287,7 @@ img {
 
 .wp-block-image img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 8px;
+    : 8px;
 }
 
 .wp-block-image figcaption, figcaption {
@@ -306,7 +306,7 @@ img {
     width: 100%;
     margin: 1em 0 1.5em 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 4px;
+    : 4px;
 }
 
 .site-avatar {
@@ -554,7 +554,7 @@ span.logo_dot {
     display: inline-block;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    : 50%;
     margin: 0 2px;
 }
 
@@ -679,7 +679,7 @@ var {
   color: var(--code-text) !important;
 	background: var(--code) !important;
 	padding: 2px 7px 2px 7px;
-	border-radius: 4px;
+	: 4px;
 }
 
 abbr,
@@ -850,7 +850,6 @@ td {
 
 .wp-block-table table {
     border: 1px solid var(--main) !important;
-    border-radius: 8px;
 }
 
 /* Links
@@ -874,7 +873,7 @@ p.feature-credit a:visited,
   transition: background-size .4s;
   color: var(--accent);
   padding: 0 3px;
-  border-radius: 2px;
+  : 2px;
 }
 
 a:hover,
@@ -907,7 +906,7 @@ input[type="reset"],
 input[type="submit"],
 .wp-block-button__link,
 .wp-block-button__link:visited {
-	border-radius: 4px;
+	: 4px;
 	background: var(--accent);
 	color: var(--content-bg);
 	padding: 0.5rem 1rem;
@@ -967,7 +966,7 @@ button.outline:hover {
 	padding: .8em .8em;
 	margin: 0 .5em 0 0;
 	background: var(--accent);
-	border-radius: 4px;
+	: 4px;
 	color: var(--content-bg);
 	font-weight: bold;
 	transition: 0.4s;
@@ -1012,7 +1011,7 @@ textarea {
 	color: var(--light);
 	border: 1px solid var(--lighter);
   background: var(--input-bg);
-	border-radius: 3px;
+	: 3px;
 	padding: 3px;
 }
 
@@ -1120,7 +1119,7 @@ textarea {
 .current-menu-item a {
 	color: var(--content-bg);
 	background: var(--accent);
-  border-radius: 2px;
+  : 2px;
 }
 
 /* Small menu. */
@@ -1399,7 +1398,7 @@ textarea {
 
 .screen-reader-text:focus {
   background: var(--lighter);
-	border-radius: 3px;
+	: 3px;
 	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
 	clip: auto !important;
 	clip-path: none;
@@ -1455,7 +1454,7 @@ textarea {
 /** Custom colours for Gutenberg editor **/
 
 p.has-background {
-  border-radius: 4px;
+  : 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 2em 0;
 }
@@ -1471,7 +1470,7 @@ p.has-background {
 	color: var(--accent);
 	border-bottom: 2px solid var(--accent) !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-blue-color a:hover {
 	color: var(--accent);
@@ -1493,7 +1492,7 @@ p.has-background {
 	color: var(--green);
 	border-bottom: 2px solid var(--green) !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-green-color a:hover {
 	color: var(--green);
@@ -1516,7 +1515,7 @@ p.has-background {
 	color: var(--orange);
 	border-bottom: 2px solid var(--orange) !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-orange-color a:hover {
 	color: var(--orange);
@@ -1538,7 +1537,7 @@ p.has-background {
 	color: var(--red);
 	border-bottom: 2px solid var(--red) !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-red-color a:hover {
 	color: var(--red);
@@ -1560,7 +1559,7 @@ p.has-background {
 	color: var(--grey);
 	border-bottom: 2px solid var(--grey) !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-grey-color a:hover {
 	color: var(--grey);
@@ -1583,7 +1582,7 @@ p.has-background {
 	color: white;
 	border-bottom: 2px solid white !important;
   background: none;
-  border-radius: 0;
+  : 0;
 }
 .has-white-color a:hover {
 	color: white;
@@ -1609,7 +1608,7 @@ p.has-background {
     background-color: var(--accent);
     margin: 1em 0;
     color: var(--content-bg);
-    border-radius: 4px;
+    : 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
@@ -1619,7 +1618,7 @@ p.has-background {
 		border-color: var(--content-bg);
     background: none;
     border-bottom: 2px solid var(--content-bg);
-    border-radius: 0;
+    : 0;
     padding: 0;
 }
 
@@ -1662,7 +1661,7 @@ p.has-background {
     border-top: 1px var(--lighter) solid !important;
     margin-bottom: 2rem !important;
     background: var(--lighter);
-    border-radius: 8px;
+    : 8px;
 }
 
 .gwolle-gb .admin-entry {
@@ -1674,7 +1673,7 @@ p.has-background {
 	background-image: -webkit-linear-gradient(top, var(--lighter), var(--lighter)) !important;
 	background-image: -o-linear-gradient(top, var(--lighter), var(--lighter)) !important;
 	background-image: linear-gradient(top, var(--lighter), var(--lighter)) !important;
-  border-radius: 8px;
+  : 8px;
 }
 
 #gwolle-gb-total { /* Hides number of entries */
@@ -1759,7 +1758,7 @@ p.has-background {
 .gwolle-gb form.gwolle-gb-write {
   background: var(--lighter);
   padding: 1rem;
-  border-radius: 8px;
+  : 8px;
 }
 
 .gwolle-gb form.gwolle-gb-write h3 {
