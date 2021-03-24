@@ -1049,6 +1049,7 @@ textarea {
 	width: 100%;
 	background: var(--nav-bg);
   margin: 0 !important;
+  font-size: 1rem;
 }
 
 .main-navigation ul {
