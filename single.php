@@ -29,11 +29,20 @@ get_header();
 			?>
 
 			<!-- Add newsletter to the bottom of all posts. -->
-			<div class="post-newsletter">
+			<div class="subscribe-form">
 				<h2>📰 Cool people get newsletters!</h2>
-				<p>Do you want all your friends to look up to you and think "I wanna be like them!" If so, you <i>need</i> my newsletter! To find out more <a href="/newsletter">click here</a>.</p>
-				<p><small><b>Warning:</b> Reading my newsletter <b>will not</b> make you any cooler and is likely to significantly reduce your intelligence. May contain nuts 🥜.</small></p>
-				<?php echo do_shortcode( '[swp-forms id=2222]' ); ?>
+
+				<p>Have a poorly written technology, privacy and web-centric newsletter delivered straight to your inbox every month! <a href="https://metaletter.net">More info</a></p>
+
+				<p><b>⚠️ Warning:</b> Reading my newsletter is likely to significantly reduce your intelligence. May contain nuts. 🥜</p>
+
+				<form action="https://newsletter.kevq.uk/subscribe" method="POST" accept-charset="utf-8">
+				<label for="email" class="visuallyhidden">Email</label>
+				<input type="email" placeholder="jane@example.com" name="email" id="email"/>
+				<input type="hidden" name="list" value="IHoM4A4bdjmF8zo9CNJIvQ"/><br>
+				<input type="hidden" name="subform" value="yes"/>
+				<input type="submit" name="submit" value="Subscribe!" id="submit"/>
+				</form>
 			</div>
 
 			<hr>

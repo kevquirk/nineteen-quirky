@@ -61,6 +61,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     --light: #444;
     --lighter: #DDD;
    	--content-bg: #FAFAFA;
+    --accent-bg: #F5F7FF;
     --body-bg: #9E9E9E;
     --nav-bg: #212121;
     --nav-text: #FAFAFA;
@@ -695,6 +696,23 @@ ins {
 
 big {
 	font-size: 125%;
+}
+
+/* Subscribe form on posts */
+.subscribe-form {
+  background: var(--accent-bg);
+  border: 2px solid var(--main);
+  border-radius: 5px;
+  padding: 25px;
+  margin: 1em 0;
+}
+
+.subscribe-form h2 {
+  margin: 0;
+}
+
+.subscribe-form p {
+  font-size: 1.1rem;
 }
 
 /* Elements
