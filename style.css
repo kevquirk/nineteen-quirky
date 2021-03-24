@@ -698,21 +698,84 @@ big {
 	font-size: 125%;
 }
 
-/* Subscribe form on posts */
+/* Format the newsletter/subscribe form */
+
 .subscribe-form {
-  background: var(--accent-bg);
-  border: 2px solid var(--main);
-  border-radius: 5px;
-  padding: 25px;
-  margin: 1em 0;
+	border: 3px solid var(--main);
+	padding: 1rem;
+  background: rgba(0, 0, 0, .075);
+}
+
+.is-dark-theme.is-dark-theme .subscribe-form {
+	background: rgba(0, 0, 0, .5);
 }
 
 .subscribe-form h2 {
-  margin: 0;
+	font-size: 2.3rem;
+  margin-bottom: 2rem;
+	margin-top: 0 !important;
 }
 
 .subscribe-form p {
-  font-size: 1.1rem;
+	margin-bottom: 1rem;
+}
+
+.subscribe-form a[href*="//"]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin-left: 4px;
+}
+
+.subscribe-form #email {
+  margin: 1rem 0;
+	width: 400px
+}
+
+.subscribe-form #submit {
+	padding: .75rem 1.5rem;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+input[type="email"], input[type="url"] {
+  border: 3px solid var(--main);
+}
+
+@media only screen and (max-width: 700px) {
+  .mini-subscribe input#email,
+  .mini-subscribe input#submit,
+  .subscribe-form input#email,
+  .subscribe-form input#submit {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Format generic banners and 100 days banner */
+.banner,
+.hundred-days {
+	background: rgba(0, 0, 0, .075);
+	border: 3px solid var(--main);
+	padding: 1rem;
+	font-weight: bold;
+}
+
+.is-dark-theme.is-dark-theme .banner,
+.is-dark-theme.is-dark-theme .hundred-days {
+	background: rgba(0, 0, 0, .3);
+}
+
+.hundred-days-number {
+  font-size: 1.4rem;
+  color: DeepPink;
 }
 
 /* Elements
