@@ -308,26 +308,11 @@ img {
     border-radius: 4px;
 }
 
-
-img.rotate {
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-  box-shadow: none;
-  max-width: 200px;
+.site-avatar {
   margin: 0 auto;
   display: block;
 }
 
-img.rotate:hover {
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
-  background: url("images/card-back.jpg") no-repeat;
-}
 
 /* Forms
 	 ========================================================================== */
@@ -570,6 +555,11 @@ span.logo_dot {
     height: 10px;
     border-radius: 50%;
     margin: 0 2px;
+}
+
+.site-description {
+  text-align: center;
+  margin-top: -1rem;
 }
 
 h2.entry-title {
@@ -1075,6 +1065,14 @@ textarea {
 	.main-navigation ul {
 		display: flex;
 	}
+
+  .nav {
+    margin: 0 .5rem;
+  }
+
+  #page {
+    padding: 0 .5rem;
+  }
 }
 
 .site-main .comment-navigation,
