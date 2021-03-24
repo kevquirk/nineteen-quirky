@@ -1069,7 +1069,7 @@ textarea {
 
 @media only screen and (max-width: 60em) {
   .nav {
-    margin: 0 .5rem;
+    margin: 0 -.5rem;
   }
 
   #page {
