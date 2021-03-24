@@ -729,7 +729,7 @@ big {
   margin: 1rem 0;
 	width: 400px;
   padding: .5rem;
-  border: 2px solid var(--main);
+  border: 3px solid var(--main);
 }
 
 .subscribe-form #submit {
