@@ -21,10 +21,6 @@
 	<script async defer data-domain="kevq.uk" src="https://stats.kevq.uk/js/index.js"></script>
 	<!-- END PLAUSIBLE ANALYTICS -->
 
-	<!-- Trying out Goat Counter cuttently too -->
-		<script data-goatcounter="https://kev.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-	<!-- End Goat counter code -->
-
 	<?php wp_head(); ?>
 </head>
 
@@ -39,11 +35,11 @@
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?><span class="logo_dot"></span></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?><span class="logo_dot"></span></a></h1>
+				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			endif;
 			$nineteen_quirky_description = get_bloginfo( 'description', 'display' );
