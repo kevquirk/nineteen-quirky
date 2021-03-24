@@ -287,7 +287,6 @@ img {
 
 .wp-block-image img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    : 8px;
 }
 
 .wp-block-image figcaption, figcaption {
@@ -306,7 +305,6 @@ img {
     width: 100%;
     margin: 1em 0 1.5em 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    : 4px;
 }
 
 .site-avatar {
@@ -864,7 +862,6 @@ p.feature-credit a:visited,
   transition: background-size .4s;
   color: var(--accent);
   padding: 0 3px;
-  : 2px;
 }
 
 a:hover,
@@ -1110,7 +1107,6 @@ textarea {
 .current-menu-item a {
 	color: var(--content-bg);
 	background: var(--accent);
-  : 2px;
 }
 
 /* Small menu. */
@@ -1445,7 +1441,6 @@ textarea {
 /** Custom colours for Gutenberg editor **/
 
 p.has-background {
-  : 4px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 2em 0;
 }
@@ -1461,7 +1456,6 @@ p.has-background {
 	color: var(--accent);
 	border-bottom: 2px solid var(--accent) !important;
   background: none;
-  : 0;
 }
 .has-blue-color a:hover {
 	color: var(--accent);
@@ -1483,7 +1477,6 @@ p.has-background {
 	color: var(--green);
 	border-bottom: 2px solid var(--green) !important;
   background: none;
-  : 0;
 }
 .has-green-color a:hover {
 	color: var(--green);
@@ -1506,7 +1499,6 @@ p.has-background {
 	color: var(--orange);
 	border-bottom: 2px solid var(--orange) !important;
   background: none;
-  : 0;
 }
 .has-orange-color a:hover {
 	color: var(--orange);
@@ -1528,7 +1520,6 @@ p.has-background {
 	color: var(--red);
 	border-bottom: 2px solid var(--red) !important;
   background: none;
-  : 0;
 }
 .has-red-color a:hover {
 	color: var(--red);
@@ -1550,7 +1541,6 @@ p.has-background {
 	color: var(--grey);
 	border-bottom: 2px solid var(--grey) !important;
   background: none;
-  : 0;
 }
 .has-grey-color a:hover {
 	color: var(--grey);
@@ -1573,7 +1563,6 @@ p.has-background {
 	color: white;
 	border-bottom: 2px solid white !important;
   background: none;
-  : 0;
 }
 .has-white-color a:hover {
 	color: white;
@@ -1599,7 +1588,6 @@ p.has-background {
     background-color: var(--accent);
     margin: 1em 0;
     color: var(--content-bg);
-    : 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
@@ -1609,7 +1597,6 @@ p.has-background {
 		border-color: var(--content-bg);
     background: none;
     border-bottom: 2px solid var(--content-bg);
-    : 0;
     padding: 0;
 }
 
@@ -1652,7 +1639,6 @@ p.has-background {
     border-top: 1px var(--lighter) solid !important;
     margin-bottom: 2rem !important;
     background: var(--lighter);
-    : 8px;
 }
 
 .gwolle-gb .admin-entry {
@@ -1664,7 +1650,6 @@ p.has-background {
 	background-image: -webkit-linear-gradient(top, var(--lighter), var(--lighter)) !important;
 	background-image: -o-linear-gradient(top, var(--lighter), var(--lighter)) !important;
 	background-image: linear-gradient(top, var(--lighter), var(--lighter)) !important;
-  : 8px;
 }
 
 #gwolle-gb-total { /* Hides number of entries */
@@ -1749,7 +1734,6 @@ p.has-background {
 .gwolle-gb form.gwolle-gb-write {
   background: var(--lighter);
   padding: 1rem;
-  : 8px;
 }
 
 .gwolle-gb form.gwolle-gb-write h3 {
