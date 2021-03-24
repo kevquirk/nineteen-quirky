@@ -310,8 +310,10 @@ img {
 }
 
 .site-avatar {
+  height: 8rem;
   margin: 0 auto;
   display: block;
+  height: 8rem;
 }
 
 
